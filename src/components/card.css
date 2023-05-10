@@ -1,5 +1,5 @@
 @font-face {
-    font-family:"police";
+    font-family: "police";
     src: url('/src/assets/police.TTF');
 }
 
@@ -11,13 +11,14 @@
 }
 
 .ListCardsHuman {
-    display : grid;
+    display: grid;
     grid-template-columns: repeat(3, 2fr);
     grid-template-rows: 407px 407px;
     justify-items: center;
     align-items: center;
     padding: 1%;
     margin: 2%;
+
 
 }
 
@@ -30,6 +31,11 @@
 
 }
 
+.selectionImage:hover {
+    cursor: pointer;
+
+}
+
 .titre {
     font-size: large;
     font-family: "police";
@@ -37,7 +43,22 @@
     text-align: center;
 
 }
+
 .click {
     background-color: transparent;
-    border:none;
+    border: none;
+}
+
+
+.player {
+    opacity: 0.5;
+}
+
+.player:hover {
+    /* border: solid #FFE81F; */
+    color: #FFFAE1;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+    opacity: 1;
 }

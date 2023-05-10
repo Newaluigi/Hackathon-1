@@ -2,15 +2,16 @@
   font-family: "fontStarWars";
   src: url('/src/assets/fonts/STJEDISE.TTF');
 }
+
 body {
   margin: 0;
   font-family: "fontStarWars", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-    background-image: url("../src/assets/img/pexels-francesco-ungaro-998641.jpg");
-      background-size: cover;
-      background-repeat: no-repeat;
-      width: 100%;
+  background-image: url("../src/assets/img/pexels-francesco-ungaro-998641.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
 }
 
 code {
