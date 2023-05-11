@@ -1,7 +1,8 @@
-.advertise{
-position: absolute;
-top: 90px;
-right:  10px;
-/* border: #FFe81f solid;
+.advertise {
+    position: absolute;
+    top: 90px;
+    right: 10px;
+    margin-top: 150px;
+    /* border: #FFe81f solid;
 box-shadow:  1px 2px 2px #FFe81f; */
 }

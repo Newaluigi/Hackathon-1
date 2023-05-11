@@ -1,43 +1,44 @@
 import "./Menuburger.css";
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import { BiMenu } from "react-icons/bi";
+import { RxCross2 } from "react-icons/rx";
 
 const Menuburger = () => {
-  const nav = document.querySelector("nav");
-
-  document.querySelector("#burger").addEventListener("click", (e) => {
-    e.currentTarget.classList.toggle("active");
-    nav.classList.toggle("show");
-  });
-
+  const [isOpen, setIsOpen] = useState(false);
   return (
-    <>
-      <div id="container">
-        <div id="burger">
-          <div className="bun top"></div>
-          <div className="filling"></div>
-          <div className="bun bottom"></div>
-        </div>
-      </div>
-
+    <div className="burgerMenu">
+      <button className="buttonMenu" onClick={() => setIsOpen(!isOpen)}>
+        {isOpen ? <RxCross2 /> : <BiMenu />}
+      </button>
       <nav>
-        <ul>
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li className="green">
-            <a href="/TourList">Tournaments</a>
-          </li>
-          <li className="red">
-            <a href="/CharactersList">Characters</a>
-          </li>
-          <li className="yellow">
-            <a href="/gameboard">Game</a>
-          </li>
-          <li className="purple">
-            <a href="/gameboard">Actual tournament</a>
-          </li>
-        </ul>
+        <div className="listMenuDiv">
+          <ul
+            className="listMenu"
+            style={{ display: isOpen ? "block" : "none" }}
+          >
+            <Link to="/">
+              <li
+                onClick={() => {
+                  setIsOpen(false);
+                }}
+              >
+                <a href="/">Home</a>
+              </li>
+            </Link>
+            <li>
+              <a href="/tourlist">Tournament list</a>
+            </li>
+            <li>
+              <a href="/characterslist">Character list</a>
+            </li>
+            <li>
+              <a href="/gameboard">Current tournament</a>
+            </li>
+          </ul>
+        </div>
       </nav>
-    </>
+    </div>
   );
 };
 

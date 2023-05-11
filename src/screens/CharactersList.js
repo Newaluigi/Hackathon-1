@@ -1,6 +1,7 @@
 import "./CharactersList.css";
 import { useState, useEffect } from "react";
 import Card from "../components/card";
+import Header from "../components/Header";
 
 const CharactersList = (props) => {
   const [characters, setCharacters] = useState([]);
@@ -16,6 +17,7 @@ const CharactersList = (props) => {
 
   return (
     <div className="List">
+      <Header />
       <h1 className="class-h1"> select your characters </h1>
 
       <div className="ListCardsHuman">

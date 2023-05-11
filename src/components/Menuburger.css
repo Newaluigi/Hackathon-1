@@ -1,213 +1,77 @@
-/* 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
-@mixin lightsaber($color) {
-  background: mix($color, #fff, 10%);
-  box-shadow: $color 0px 0px 0px 2px;
-  &:hover {
-    box-shadow: $color 0px 0px 20px 2px;
-    text-shadow: $color 0px 0px 6px, $color 0px 0px 10px;
-  }
+.burgerMenu .buttonMenu {
+  background-color: #ffe81f;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  scale: 2;
+  border: none;
 }
 
-html,
-body {
-  background: #222;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-#container {
-  width: 80px;
-  height: 80px;
-  position: absolute;
-  top: 0%;
-  left: 0%;
-}
-
-#burger {
-  cursor: pointer;
-  opacity: 0;
-  animation: fadein 0.2s ease 1s forwards;
-  overflow: hidden;
+.burgerMenu .buttonMenu svg {
+  stroke-width: 0.5px;
+  scale: 1.4;
   position: relative;
-  width: 100%;
-  height: 100%;
-  %burgersection {
-    display: block;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(0deg);
-    height: 10%;
-    width: 70%;
-    transform-origin: 50% 50%;
-    transition: top 0.4s ease 0.4s, transform 0.4s ease 0.4s;
-    &:before,
-    &:after {
-      content: "";
-      display: block;
-      height: 40%;
-      background: white;
-      position: absolute;
-      top: 50%;
-      transform: translate(0%, -45%);
-      transition: background 0.2s ease, box-shadow 0.2s ease;
-    }
-    &:before {
-      left: 0;
-      width: calc(-1px + 75%);
-      border-radius: 10px 0px 0px 10px;
-    }
-    &:after {
-      right: 0;
-      width: calc(-1px + 25%);
-    }
-  }
-
-  &:hover {
-    .bun {
-      &.top:before {
-        background: #fee;
-        box-shadow: #f00 0px 0px 10px 1px;
-      }
-      &.bottom:before {
-        background: #dff;
-        box-shadow: #0ff 0px 0px 10px 1px;
-      }
-    }
-    .filling {
-      &:before {
-        background: #efe;
-        box-shadow: #0f0 0px 0px 10px 1px;
-      }
-    }
-  }
-
-  .bun {
-    @extend %burgersection;
-    &.top {
-      top: 25%;
-    }
-    &.bottom {
-      top: 75%;
-    }
-  }
-  .filling {
-    @extend %burgersection;
-    top: 50%;
-    transform: translate(-50%, -50%) rotate(180deg);
-    animation: green-ls-out 0.8s ease forwards;
-  }
-
-  &.active {
-    .bun {
-      border-radius: 3px;
-      top: 50%;
-      transition: top 0.4s ease, transform 0.4s ease;
-      &.top {
-        transform: translate(-50%, -50%) rotate(-225deg);
-      }
-      &.bottom {
-        transform: translate(-50%, -50%) rotate(405deg);
-      }
-    }
-    .filling {
-      transform: translate(-50%, -50%) rotate(-90deg);
-      animation: green-ls-in 0.8s ease forwards;
-    }
-  }
+  top: 1px;
 }
 
-nav {
-  &.show {
-    transform: translatex(0%);
-  }
-  font-family: Open Sans;
-  color: white;
-  background: #111;
+.burgerMenu .listMenuDiv .listMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(8px);
+  padding-left: 0;
+  height: 90vh;
+  margin: 0;
+  width: 100vw;
+  overflow-y: scroll;
+  z-index: 1;
+}
+
+.burgerMenu .listMenuDiv .listMenu li {
+  padding-left: 30px;
+  list-style-type: none;
+  cursor: pointer;
+  font: 30px bold;
+}
+
+.burgerMenu .listMenuDiv .listMenu li a {
+  margin: 150px 0 100px 0;
+  position: relative;
+  display: block;
+  padding: 4px 0;
+  text-transform: uppercase;
+  transition: 1s;
+}
+
+.burgerMenu .listMenuDiv .listMenu li a::after {
   position: absolute;
-  transform: translatex(-100%);
-  transition: transform 0.2s ease;
-  top: 80px;
-  bottom: 0px;
-  padding-right: 16px;
-  width: 300px;
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    //font-weight:bolder;
-    li {
-      @include lightsaber(#4df);
-      font-size: 1.75em;
-      line-height: 1.25em;
-      padding: 0px;
-      padding-left: 0px;
-      margin: 16px 0px;
-      width: 0;
-      border-radius: 0px 100px 100px 0px;
-      transition: width 0.2s ease, padding 0.2s ease, color 0.2s ease,
-        text-shadow 0.2s ease;
-      &:hover {
-        width: 100%;
-        padding: 0px 16px 0px 0px;
-        color: black;
-      }
-      a {
-        display: block;
-        text-decoration: none;
-        width: 300px;
-        color: inherit;
-        padding-left: 16px;
-      }
-      &.green {
-        @include lightsaber(#0f0);
-      }
-      &.red {
-        @include lightsaber(#f00);
-      }
-      &.purple {
-        @include lightsaber(#c0c);
-      }
-      &.yellow {
-        @include lightsaber(#ff0);
-      }
-    }
-  }
+  content: "";
+  top: 100%;
+  left: 0;
+  width: 90vw;
+  height: 15px;
+  background: white;
+  box-shadow: 0 0 5px #F00, 0 0 25px #F00, 0 0 50px #F00, 0 0 100px #F00;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s;
 }
 
-@keyframes green-ls-in {
-  0% {
-    transform: translate(-50%, -50%) rotate(180deg);
-  }
-  50% {
-    transform: translate(-50%, -50%) rotate(-90deg);
-  }
-  100% {
-    transform: translate(-50%, -50%) rotate(-90deg) translate(200%, 0%);
-  }
+.burgerMenu .listMenuDiv .listMenu li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: right;
 }
 
-@keyframes green-ls-out {
-  0% {
-    transform: translate(-50%, -200%) rotate(-90deg);
-  }
-  50% {
-    transform: translate(-50%, -50%) rotate(-90deg);
-  }
-
-  100% {
-    transform: translate(-50%, -50%) rotate(180deg);
-  }
+.burgerMenu .listMenuDiv .listMenu :nth-child(n):link {
+  text-decoration: none;
+  color: white;
 }
 
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-} */
+.burgerMenu .listMenuDiv .listMenu :nth-child(n):visited {
+  text-decoration: none;
+  color: white;
+}
+
+.burgerMenu .listMenuDiv .listMenu :nth-child(n):hover {
+  color: #f00;
+}

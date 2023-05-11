@@ -1,6 +1,6 @@
 import "./Header.css";
-import MenuButton from "./MenuButton";
-// import Menuburger from "./Menuburger";
+// import MenuButton from "./MenuButton";
+import Menuburger from "./Menuburger";
 
 const Header = () => {
   return (
@@ -9,8 +9,8 @@ const Header = () => {
         <h1>intergalactic tournaments</h1>
       </div>
       <div className="headerButton">
-        <MenuButton />
-        {/* <Menuburger /> */}
+        {/* <MenuButton /> */}
+        <Menuburger />
       </div>
     </div>
   );

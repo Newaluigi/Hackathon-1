@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STAR WARS GAME</title>
+  <link rel="stylesheet" href="css/main.css">
+  <embed src="/sound/Star Wars Episode III - Battle over Coruscant Soundtrack.mp3" hidden="false" autostart="true" />
+</head>
+
+<body>
+  <div class="wrap">
+    <header class="title">STAR WARS BATTLE</header>
+    <div class="game-wrapper">
+      <div class="game"></div>
+      <div class="congratulations">
+        <h1>Bravo !</h1>
+        <h2>tu as gagner</h2>
+        <button class="btn" onclick="refreshPage(true)">Continuer</button>
+      </div>
+      <div class="game-over">
+        <h1>GAME OVER</h1>
+        <h2>tu as perdu</h2>
+        <button class="btn" onclick="refreshPage(false)">Fin du tournoi</button>
+      </div>
+    </div>
+    <footer>utilise les flèches droite/gauche pour te déplacé et espace pour tirer</footer>
+  </div>
+  <script src="js/game.js"></script>
+</body>
+
+</html>
