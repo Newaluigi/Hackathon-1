@@ -1,6 +1,6 @@
 <div align='center'>
     <h1 id="top"><b>:checkered_flag: Intergalactic tournaments :checkered_flag:</b></h1>
-    <img src='/assets/readme/main.png' width='250' height='250' />
+    <img src='src/assets/readme/main.jpg' width='250' height='250' />
     <p>WCS PROJECT [Hackathon #1]</b></p>
 
 ![Size](https://img.shields.io/github/languages/code-size/Newaluigi/Intergalactic-tournament.svg)
@@ -39,7 +39,7 @@
 
 ## 🐔 **ABOUT THE PROJECT**
 
-48 hours in team to discover and understand 𝗥𝗲𝗮𝗰𝘁, consuming an 𝗔𝗣𝗜 and build a website. The topic was Starwars universe. Initially the subject was about love encounter, but as we had already did love application project we decided to produced about sport encounters, so in starwars pod racing tournament.
+48 hours in team to discover and understand 𝗥𝗲𝗮𝗰𝘁, consuming an 𝗔𝗣𝗜 and build a website. The topic was Starwars universe. Initially the subject was about love encounter, but as we had already did love application for on the previous project we decided to produced about sport encounters, so in starwars the main one is pod racing tournament.
 <br />
 <br />
 It's a front project, there is no back-end, so some random features are fake for the presentation.
@@ -76,7 +76,9 @@ It's a front project, there is no back-end, so some random features are fake for
 
 ### Figma
 
-
+Example of the tournament list page :
+<br />
+<img src='src/assets/readme/figma.jpg'  />
 
 ### Color Reference
 
@@ -84,6 +86,7 @@ It's a front project, there is no back-end, so some random features are fake for
 | ----------------- | ------------------------------------------------------------------ |
 | background-color | ![#000000](https://via.placeholder.com/10/000000?text=+) #000000 |
 | main-color | ![#ffe81f](https://via.placeholder.com/10/ffe81f?text=+) #ffe81f |
+| lightsaber-color | ![#ff0000](https://via.placeholder.com/10/ff0000?text=+) #ff0000 |
 
 
 <br />
@@ -279,7 +282,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 * consommation API :
 
 ### Tournament
-* bracket interractif :
+* bracket interractif : 
 
 ### Game
 *  
@@ -292,11 +295,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## 🔨 **GO FURTHER**
 
-* 
-* 
-* 
-* 
-* 
+* Menu burger : add the close option or change the style (as https://codepen.io/Naito/embed/pgyOVm?default-tab=result&theme-id=299#css-box)
+* Tournament Card : one participate button is not aligned, refactor the card, add more card style
+* Tournament List : traduce the page in english, animate the hr as a lightsaber (https://codepen.io/lewisvrobinson/embed/OMNmJd?default-tab=result&theme-id=299#css-box) and reveal the actu section
+* Counter : add an event to reveal the participate button of a tournament card when the countdown is over
+* Character list : add some style ?
+* Tournament bracket : real interractivity
+* Game : integrate directly on the site, change for a race game ?
 
 <br />
 
