@@ -100,6 +100,11 @@ Example of the tournament list page :
 
 <br />
 
+### API
+
+API shared for the hackathon :
+https://github.com/Miadil/starwars-api
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ---
@@ -200,6 +205,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+### Game installation:
+
+In this repository the game is in /Star-Wars-Invaders, but for runing th eproject correcctly you need to move this flder outside the repository folder and launch the both. You can also find the repository of our teammate work with the game in one repository : https://github.com/wiwim51/Star-Wars-Invaders
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -226,7 +235,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 <br />
 <br />
 <p align="center"> 
-<img src='/assets/readme/homepage.jpg' alt="screen home">
+<img src='/src/assets/readme/home.jpg' alt="screen home">
+</p>
+<br />
+<p align="center"> 
+<img src='/src/assets/readme/burger.jpg' alt="screen burger">
 </p>
 
 #### Tournament selection
@@ -242,15 +255,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 <br />
 <br />
 <p align="center"> 
-<img src='/assets/readme/activity.jpg' alt="screen tourism">
+<img src='/src/assets/readme/character.jpg' alt="screen burger">
 </p>
 
 #### Game
 
 <br />
+<p align="center"> 
+<img src='/src/assets/readme/game1.jpg' alt="screen home">
+</p>
 <br />
 <p align="center"> 
-<img src='/assets/readme/footer.jpg' alt="screen footer">
+<img src='/src/assets/readme/game2.jpg' alt="screen burger">
 </p>
 
 
@@ -270,22 +286,26 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## 📚 **RESSOURCES**
 
 ### Homepage
-* Menu burger : 
-* Lecture animation :
+* Menu burger :
+- https://www.codeur.com/tuto/css/menu-burger-html-css/
+- https://codepen.io/Naito/embed/pgyOVm?default-tab=result&theme-id=299#css-box
+* Lecture animation : 
 
 ### Tournament list
-* compte à rebours :
-* Ligne de séparation :
-* audio play :
+* compte à rebours : https://www.youtube.com/watch?time_continue=7&v=Z1vTWyD1OP8&embeds_euri=https%3A%2F%2Fwww.google.com%2F&source_ve_path=MzY4NDI&feature=emb_logo
+* Ligne de séparation : https://www.w3schools.com/howto/howto_css_style_hr.asp
+* audio play : https://dev.to/shantanu_jana/how-to-play-sound-on-button-click-in-javascript-3m48
 
 ### Character list
 * consommation API :
 
 ### Tournament
 * bracket interractif : 
+- https://codepen.io/EvanWard/pen/LVvmzP
+- https://www.youtube.com/watch?v=bO6yRZCPk3w
 
 ### Game
-*  
+*  space invaders in JS : https://codepen.io/marciovbarbosa/pen/DZrRvQ
 
 <br />
 
@@ -296,12 +316,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## 🔨 **GO FURTHER**
 
 * Menu burger : add the close option or change the style (as https://codepen.io/Naito/embed/pgyOVm?default-tab=result&theme-id=299#css-box)
-* Tournament Card : one participate button is not aligned, refactor the card, add more card style
-* Tournament List : traduce the page in english, animate the hr as a lightsaber (https://codepen.io/lewisvrobinson/embed/OMNmJd?default-tab=result&theme-id=299#css-box) and reveal the actu section
+* Tournament Card : one participate button is not aligned / refactor the card / add more card style
+* Tournament List : traduce the page in english / animate the hr as a lightsaber (https://codepen.io/lewisvrobinson/embed/OMNmJd?default-tab=result&theme-id=299#css-box) revealing the actu section
 * Counter : add an event to reveal the participate button of a tournament card when the countdown is over
 * Character list : add some style ?
 * Tournament bracket : real interractivity
-* Game : integrate directly on the site, change for a race game ?
+* Game : integrate directly on the site / change for a race game ?
 
 <br />
 
