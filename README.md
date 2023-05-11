@@ -39,7 +39,7 @@
 
 ## 🐔 **ABOUT THE PROJECT**
 
-48 hours in team to discover and understand 𝗥𝗲𝗮𝗰𝘁, consuming an 𝗔𝗣𝗜 and build a website. The topic was Starwars universe. Initially the subject was about love encounter, but as we had already did love application for on the previous project we decided to produced about sport encounters, so in starwars the main one is pod racing tournament.
+48 hours in team to discover and understand 𝗥𝗲𝗮𝗰𝘁, consuming an 𝗔𝗣𝗜 and build a website. The topic was Starwars universe and the consumption of an API with star war's characters. Initially the subject was about love encounter, but as we had already did love application for on the previous project we decided to produced about sport encounters, so in starwars the main one is pod racing tournament.
 <br />
 <br />
 It's a front project, there is no back-end, so some random features are fake for the presentation.
@@ -219,7 +219,7 @@ In this repository the game is in /Star-Wars-Invaders, but for runing th eprojec
 ### Key features
 * Animated homepage
 * Menu burger
-* Interractive burger
+* Interractive tournament bracket
 * Gallery with API
 * Game
 * List of tournaments with a countdown
@@ -247,7 +247,19 @@ In this repository the game is in /Star-Wars-Invaders, but for runing th eprojec
 <br />
 <br />
 <p align="center"> 
-<img src='/assets/readme/presentation.jpg' alt="screen presentation">
+<img src='/src/assets/readme/tourlist-header.jpg' alt="screen tournament list">
+</p>
+<br />
+<p align="center"> 
+<img src='/src/assets/readme/tourlist-card1.jpg' alt="screen tournament list">
+</p>
+<br />
+<p align="center"> 
+<img src='/src/assets/readme/tourlist-card2.jpg' alt="screen tournament list">
+</p>
+<br />
+<p align="center"> 
+<img src='/src/assets/readme/tourlist-actu.jpg' alt="screen tournament list">
 </p>
 
 #### Character selection
@@ -255,7 +267,7 @@ In this repository the game is in /Star-Wars-Invaders, but for runing th eprojec
 <br />
 <br />
 <p align="center"> 
-<img src='/src/assets/readme/character.jpg' alt="screen burger">
+<img src='/src/assets/readme/character.jpg' alt="screen character selection">
 </p>
 
 #### Game
@@ -275,7 +287,11 @@ In this repository the game is in /Star-Wars-Invaders, but for runing th eprojec
 <br />
 <br />
 <p align="center"> 
-<img src='/assets/readme/footer.jpg' alt="screen footer">
+<img src='/src/assets/readme/tournamentbracket.jpg' alt="screen home">
+</p>
+<br />
+<p align="center"> 
+<img src='/src/assets/readme/tournamentbracket2.jpg' alt="screen home">
 </p>
 
 
@@ -286,10 +302,8 @@ In this repository the game is in /Star-Wars-Invaders, but for runing th eprojec
 ## 📚 **RESSOURCES**
 
 ### Homepage
-* Menu burger :
-- https://www.codeur.com/tuto/css/menu-burger-html-css/
-- https://codepen.io/Naito/embed/pgyOVm?default-tab=result&theme-id=299#css-box
-* Lecture animation : 
+* Menu burger : https://www.codeur.com/tuto/css/menu-burger-html-css/
+* Lecture animation : https://www.youtube.com/watch?v=kHrV2ZHzF-0
 
 ### Tournament list
 * compte à rebours : https://www.youtube.com/watch?time_continue=7&v=Z1vTWyD1OP8&embeds_euri=https%3A%2F%2Fwww.google.com%2F&source_ve_path=MzY4NDI&feature=emb_logo
@@ -319,9 +333,9 @@ In this repository the game is in /Star-Wars-Invaders, but for runing th eprojec
 * Tournament Card : one participate button is not aligned / refactor the card / add more card style
 * Tournament List : traduce the page in english / animate the hr as a lightsaber (https://codepen.io/lewisvrobinson/embed/OMNmJd?default-tab=result&theme-id=299#css-box) revealing the actu section
 * Counter : add an event to reveal the participate button of a tournament card when the countdown is over
-* Character list : add some style ?
+* Character list : add more style ?
 * Tournament bracket : real interractivity
-* Game : integrate directly on the site / change for a race game ?
+* Game : integrate directly on the site / modify for a race game ?
 
 <br />
 
