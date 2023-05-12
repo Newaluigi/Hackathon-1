@@ -231,39 +231,48 @@ In this repository the game is in /Star-Wars-Invaders, but for runing th eprojec
 <br />
 
 #### Homepage
-
+The homepage is simple but catchy : the site open with the music of starwars and the classic landing with the scrolling text of introduction.
 <br />
 <br />
 <p align="center"> 
 <img src='/src/assets/readme/home.jpg' alt="screen home">
 </p>
+The menu burger open the menu on front with glassmorphism, and the hover on the li start a lightsaber effect.
+<br />
 <br />
 <p align="center"> 
 <img src='/src/assets/readme/burger.jpg' alt="screen burger">
 </p>
 
 #### Tournament selection
-
+On the header of this page you can see a countdown to the next tournament with a R2D2 body and a funny ad.
 <br />
 <br />
 <p align="center"> 
 <img src='/src/assets/readme/tourlist-header.jpg' alt="screen tournament list">
-</p>
+</p>    
+The main section of the page is composed with the cards of all the tournaments where you can see the details of the tournament.
+<br />
 <br />
 <p align="center"> 
 <img src='/src/assets/readme/tourlist-card1.jpg' alt="screen tournament list">
 </p>
+On the card you have a button to particpate and select your character, with a sound of R2D2 on the onclick.
+<br />
 <br />
 <p align="center"> 
 <img src='/src/assets/readme/tourlist-card2.jpg' alt="screen tournament list">
 </p>
+At the end of the page there is a section with fun facts
+<br />
 <br />
 <p align="center"> 
 <img src='/src/assets/readme/tourlist-actu.jpg' alt="screen tournament list">
 </p>
 
 #### Character selection
-
+On this page the user can select his character, this one will be saved on the current tournament page.
+There is an hover effect that change opacity.
 <br />
 <br />
 <p align="center"> 
@@ -271,27 +280,28 @@ In this repository the game is in /Star-Wars-Invaders, but for runing th eprojec
 </p>
 
 #### Game
-
+At the begining we wanted to create a race game but because of the lack of time we produced a space invaders-like. The background change, you have one life to succeed.
 <br />
 <p align="center"> 
-<img src='/src/assets/readme/game1.jpg' alt="screen home">
+<img src='/src/assets/readme/game1.jpg' alt="screen game">
 </p>
+If the player lose there is a game over message, if he win it actualize the tournament bracket.
 <br />
 <p align="center"> 
-<img src='/src/assets/readme/game2.jpg' alt="screen burger">
+<img src='/src/assets/readme/game2.jpg' alt="screen game">
 </p>
 
 
 #### Tournament bracket
-
+On this dynamic page the bracket keep the character player and you can simulate each turn with the specific button.
 <br />
 <br />
 <p align="center"> 
-<img src='/src/assets/readme/tournamentbracket.jpg' alt="screen home">
+<img src='/src/assets/readme/tournamentbracket.jpg' alt="screen current tournament">
 </p>
 <br />
 <p align="center"> 
-<img src='/src/assets/readme/tournamentbracket2.jpg' alt="screen home">
+<img src='/src/assets/readme/tournamentbracket2.jpg' alt="screen current tournament">
 </p>
 
 
@@ -303,20 +313,18 @@ In this repository the game is in /Star-Wars-Invaders, but for runing th eprojec
 
 ### Homepage
 * Menu burger : https://www.codeur.com/tuto/css/menu-burger-html-css/
-* Lecture animation : https://www.youtube.com/watch?v=kHrV2ZHzF-0
+* Landing animation : https://www.youtube.com/watch?v=kHrV2ZHzF-0
 
 ### Tournament list
-* compte à rebours : https://www.youtube.com/watch?time_continue=7&v=Z1vTWyD1OP8&embeds_euri=https%3A%2F%2Fwww.google.com%2F&source_ve_path=MzY4NDI&feature=emb_logo
-* Ligne de séparation : https://www.w3schools.com/howto/howto_css_style_hr.asp
+* Countdown : https://www.youtube.com/watch?time_continue=7&v=Z1vTWyD1OP8&embeds_euri=https%3A%2F%2Fwww.google.com%2F&source_ve_path=MzY4NDI&feature=emb_logo
+* Separation line : https://www.w3schools.com/howto/howto_css_style_hr.asp
 * audio play : https://dev.to/shantanu_jana/how-to-play-sound-on-button-click-in-javascript-3m48
 
 ### Character list
-* consommation API :
+* consume API :
 
 ### Tournament
-* bracket interractif : 
-- https://codepen.io/EvanWard/pen/LVvmzP
-- https://www.youtube.com/watch?v=bO6yRZCPk3w
+* Dynamic bracket : https://codepen.io/EvanWard/pen/LVvmzP
 
 ### Game
 *  space invaders in JS : https://codepen.io/marciovbarbosa/pen/DZrRvQ
@@ -332,7 +340,7 @@ In this repository the game is in /Star-Wars-Invaders, but for runing th eprojec
 * Menu burger : add the close option or change the style (as https://codepen.io/Naito/embed/pgyOVm?default-tab=result&theme-id=299#css-box)
 * Tournament Card : one participate button is not aligned / refactor the card / add more card style
 * Tournament List : traduce the page in english / animate the hr as a lightsaber (https://codepen.io/lewisvrobinson/embed/OMNmJd?default-tab=result&theme-id=299#css-box) revealing the actu section
-* Counter : add an event to reveal the participate button of a tournament card when the countdown is over
+* Countdown : add an event to reveal the participate button of a tournament card when the countdown is over
 * Character list : add more style ?
 * Tournament bracket : real interractivity
 * Game : integrate directly on the site / modify for a race game ?
