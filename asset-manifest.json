@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Intergalactic-tournament/static/css/main.5ef6eb19.css",
+    "main.js": "/Intergalactic-tournament/static/js/main.c2f13317.js",
+    "static/js/787.8dae34b1.chunk.js": "/Intergalactic-tournament/static/js/787.8dae34b1.chunk.js",
+    "static/media/pexels-francesco-ungaro-998641.jpg": "/Intergalactic-tournament/static/media/pexels-francesco-ungaro-998641.c44ed04c57064dd1b4d5.jpg",
+    "static/media/road2.jpg": "/Intergalactic-tournament/static/media/road2.77d57c8441519527bee5.jpg",
+    "static/media/img-tc1.jpg": "/Intergalactic-tournament/static/media/img-tc1.0438a2426346251de8c0.jpg",
+    "static/media/road1.jpg": "/Intergalactic-tournament/static/media/road1.618035de434e513c90f7.jpg",
+    "static/media/road4.jpg": "/Intergalactic-tournament/static/media/road4.963d522bfab570f03ee4.jpg",
+    "static/media/image-A3.jpg": "/Intergalactic-tournament/static/media/image-A3.25e4a43209f6437d783a.jpg",
+    "static/media/image-A2.jpeg": "/Intergalactic-tournament/static/media/image-A2.2f0e6dcc5f58973bdf0c.jpeg",
+    "static/media/img-tc2.jpg": "/Intergalactic-tournament/static/media/img-tc2.d7046688d1b29173170b.jpg",
+    "static/media/img-tc4.jpg": "/Intergalactic-tournament/static/media/img-tc4.92f68279db6843813f19.jpg",
+    "static/media/chawin1.jpg": "/Intergalactic-tournament/static/media/chawin1.05a83c6281fd0b3200ff.jpg",
+    "static/media/spaceship.jpg": "/Intergalactic-tournament/static/media/spaceship.02c6da51d42f22da598a.jpg",
+    "static/media/image-A4.jpg": "/Intergalactic-tournament/static/media/image-A4.c2a6c06bef4f6dfe4495.jpg",
+    "static/media/road3.jpg": "/Intergalactic-tournament/static/media/road3.5f276c90b89f924fce99.jpg",
+    "static/media/STJEDISE.TTF": "/Intergalactic-tournament/static/media/STJEDISE.ae4970bd8efca4ee58be.TTF",
+    "static/media/police.TTF": "/Intergalactic-tournament/static/media/police.ae4970bd8efca4ee58be.TTF",
+    "static/media/R2D2.mp3": "/Intergalactic-tournament/static/media/R2D2.3af71f255ffeca6a21a4.mp3",
+    "static/media/image-A1.jpg": "/Intergalactic-tournament/static/media/image-A1.0dc586550b708ad36799.jpg",
+    "static/media/img-tc3.jpg": "/Intergalactic-tournament/static/media/img-tc3.22ca1993c0cba2f979ab.jpg",
+    "static/media/img-pub.jpg": "/Intergalactic-tournament/static/media/img-pub.10284ca33bd0e93793a8.jpg",
+    "static/media/chawin2.jpg": "/Intergalactic-tournament/static/media/chawin2.8bec0bb2ba5387c2ced1.jpg",
+    "static/media/img-counter1.jpg": "/Intergalactic-tournament/static/media/img-counter1.524106d3675915f953c4.jpg",
+    "index.html": "/Intergalactic-tournament/index.html",
+    "main.5ef6eb19.css.map": "/Intergalactic-tournament/static/css/main.5ef6eb19.css.map",
+    "main.c2f13317.js.map": "/Intergalactic-tournament/static/js/main.c2f13317.js.map",
+    "787.8dae34b1.chunk.js.map": "/Intergalactic-tournament/static/js/787.8dae34b1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ef6eb19.css",
+    "static/js/main.c2f13317.js"
+  ]
+}
