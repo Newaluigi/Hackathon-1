@@ -17,23 +17,17 @@ const Menuburger = () => {
             className="listMenu"
             style={{ display: isOpen ? "block" : "none" }}
           >
-            <Link to="/">
-              <li
-                onClick={() => {
-                  setIsOpen(false);
-                }}
-              >
-                <a href="/Intergalactic-tournament">Home</a>
-              </li>
-            </Link>
-            <li>
-              <a href="/tourlist">Tournament list</a>
+            <li onClick={() => setIsOpen(false)}>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="/characterslist">Character list</a>
+              <Link to="/tourlist">Tournament list</Link>
             </li>
             <li>
-              <a href="/gameboard">Current tournament</a>
+              <Link to="/characterslist">Character list</Link>
+            </li>
+            <li>
+              <Link to="/gameboard">Current tournament</Link>
             </li>
           </ul>
         </div>

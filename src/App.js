@@ -13,8 +13,8 @@ function App() {
   // const idChoise = 2
   return (
     <div className="App">
-      <Routes>
-        <Route path="/Intergalactic-tournament" element={<Home />} />
+      <Routes basename="/Intergalactic-tournament">
+        <Route path="/" element={<Home />} />
         <Route path="/characterslist" element={<CharactersList />} />
         <Route path="/tourlist" element={<TourList />} />
         <Route
