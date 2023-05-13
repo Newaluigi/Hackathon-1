@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Intergalactic-tournament/static/css/main.5ef6eb19.css",
-    "main.js": "/Intergalactic-tournament/static/js/main.27c3a65d.js",
+    "main.js": "/Intergalactic-tournament/static/js/main.1ca70002.js",
     "static/js/787.8dae34b1.chunk.js": "/Intergalactic-tournament/static/js/787.8dae34b1.chunk.js",
     "static/media/pexels-francesco-ungaro-998641.jpg": "/Intergalactic-tournament/static/media/pexels-francesco-ungaro-998641.c44ed04c57064dd1b4d5.jpg",
     "static/media/road2.jpg": "/Intergalactic-tournament/static/media/road2.77d57c8441519527bee5.jpg",
@@ -26,11 +26,11 @@
     "static/media/img-counter1.jpg": "/Intergalactic-tournament/static/media/img-counter1.524106d3675915f953c4.jpg",
     "index.html": "/Intergalactic-tournament/index.html",
     "main.5ef6eb19.css.map": "/Intergalactic-tournament/static/css/main.5ef6eb19.css.map",
-    "main.27c3a65d.js.map": "/Intergalactic-tournament/static/js/main.27c3a65d.js.map",
+    "main.1ca70002.js.map": "/Intergalactic-tournament/static/js/main.1ca70002.js.map",
     "787.8dae34b1.chunk.js.map": "/Intergalactic-tournament/static/js/787.8dae34b1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ef6eb19.css",
-    "static/js/main.27c3a65d.js"
+    "static/js/main.1ca70002.js"
   ]
 }
