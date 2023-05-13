@@ -2,7 +2,7 @@
   "name": "hackathon--1",
   "version": "0.1.0",
   "private": true,
-  "homepage": " https://newaluigi.github.io/Intergalactic-tournament",
+  "homepage": " https://newaluigi.github.io/Intergalactic-tournament/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
