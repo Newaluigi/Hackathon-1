@@ -11,7 +11,7 @@
 </div>
 
  <p align="center">
-    <a href="https://newaluigi.github.io/Intergalactic-tournament/)"><strong>Explore the website »</strong></a>
+    <a href="https://newaluigi.github.io/Intergalactic-tournament/"><strong>Explore the website »</strong></a>
     <br />
     <br />
     <a href="https://newaluigi.github.io/Intergalactic-tournament.svg/issues">Report Bug</a>
