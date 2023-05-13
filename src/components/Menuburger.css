@@ -32,6 +32,7 @@
   list-style-type: none;
   cursor: pointer;
   font: 30px bold;
+  font-family: sans-serif;
 }
 
 .burgerMenu .listMenuDiv .listMenu li a {
