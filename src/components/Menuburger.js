@@ -23,7 +23,7 @@ const Menuburger = () => {
                   setIsOpen(false);
                 }}
               >
-                <a href="/">Home</a>
+                <a href="/Intergalactic-tournament">Home</a>
               </li>
             </Link>
             <li>
